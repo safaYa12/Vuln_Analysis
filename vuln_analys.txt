@@ -1,0 +1,346 @@
+                                                                                                                    
+┌──(msafa㉿kali)-[~]
+└─$ nikto -h http://www.goodshopping.com
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          15.197.148.33
++ Target Hostname:    www.goodshopping.com
++ Target Port:        80
++ Start Time:         2025-02-23 15:04:38 (GMT6)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /goodshopping.com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www_goodshopping_com.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /site.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /database.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /15.197.148.33.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.tar.bz2: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /dump.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.com.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.goodshopping.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.pem: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /www.jks: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.egg: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /goodshopping.war: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshopping.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.tar: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /wwwgoodshoppingcom.tar.lzma: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /com.alz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /archive.cer: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /backup.tgz: Potentially interesting backup/cert file found. . See: https://cwe.mitre.org/data/definitions/530.html
++ /tvcs/getservers.exe?action=selects1: Following steps 2-4 of this page may reveal a zip file that contains passwords and system details.
++ /smg_Smxcfg30.exe?vcc=3560121183d3: This may be a Trend Micro Officescan 'backdoor'.
++ /WebAdmin.dll?View=Logon: Some versions of WebAdmin are vulnerable to a remote DoS (not tested). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1247
++ /https-admserv/bin/index?/<script>alert(document.cookie)</script>: Sun ONE Web Server 6.1 administration control is vulnerable to XSS attacks.
++ /clusterframe.jsp?cluster=<script>alert(document.cookie)</script>: Macromedia JRun 4.x JMC Interface, clusterframe.jsp file is vulnerable to a XSS attack. See: OSVDB-2876
++ /servlet/MsgPage?action=test&msg=<script>alert('Vulnerable')</script>: NetDetector 3.0 and below are vulnerable to Cross Site Scripting (XSS).
++ /servlets/MsgPage?action=badlogin&msg=<script>alert('Vulnerable')</script>: The NetDetector install is vulnerable to Cross Site Scripting (XSS) in its invalid login message.
++ /admin/sh_taskframes.asp?Title=Configuraci%C3%B3n%20de%20registro%20Web&URL=MasterSettings/Web_LogSettings.asp?tab1=TabsWebServer%26tab2=TabsWebLogSettings%26__SAPageKey=5742D5874845934A134CD05F39C63240&ReturnURL=\"><script>alert(document.cookie)</script>: IIS 6 on Windows 2003 is vulnerable to Cross Site Scripting (XSS) in certain error messages.
++ /SiteServer/Knowledge/Default.asp?ctr=\"><script>alert('Vulnerable')</script>: Site Server is vulnerable to Cross Site Scripting. See: OSVDB-17665
++ /_mem_bin/formslogin.asp?\"><script>alert('Vulnerable')</script>: Site Server is vulnerable to Cross Site Scripting. See: OSVDB-17666
++ /ss000007.pl?PRODREF=<script>alert('Vulnerable')</script>: Actinic E-Commerce services is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1732
++ /setup.exe?<script>alert('Vulnerable')</script>&page=list_users&user=P: CiscoSecure ACS v3.0(1) Build 40 allows Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0938
++ /servlet/ContentServer?pagename=<script>alert('Vulnerable')</script>: Open Market Inc. ContentServer is vulnerable to Cross Site Scripting (XSS) in the login-error page. See: OSVDB-2689
++ /search.asp?term=<%00script>alert('Vulnerable')</script>: ASP.Net 1.1 may allow Cross Site Scripting (XSS) in error pages (only some browsers will render this).
++ /samples/search.dll?query=<script>alert(document.cookie)</script>&logic=AND: Sambar Server default script is vulnerable to Cross Site Scripting (XSS).
++ /pm_buddy_list.asp?name=A&desc=B%22%3E<script>alert('Vulnerable')</script>%3Ca%20s=%22&code=1: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). See: OSVDB-4599
++ /Page/1,10966,,00.html?var=<script>alert('Vulnerable')</script>: Vignette server is vulnerable to Cross Site Scripting (XSS). Upgrade to the latest version.
++ /netutils/whodata.stm?sitename=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: OSVDB-5106
++ /members.asp?SF=%22;}alert(223344);function%20x()\{v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). See: OSVDB-4598
++ /megabook/admin.cgi?login=<script>alert('Vulnerable')</script>: Megabook guestbook is vulnerable to Cross Site Scripting (XSS). See: OSVDB-3201
++ /launch.jsp?NFuse_Application=<script>alert('Vulnerable')</script>: NFuse is vulnerable to cross site scripting (XSS) in the GetLastError function. Upgrade to the latest version. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0504
++ /launch.asp?NFuse_Application=<script>alert('Vulnerable')</script>: NFuse is vulnerable to cross site scripting (XSS) in the GetLastError function. Upgrade to the latest version. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0504
++ /isapi/testisa.dll?check1=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: OSVDB-5803
++ /html/cgi-bin/cgicso?query=<script>alert('Vulnerable')</script>: This CGI is vulnerable to Cross Site Scripting (XSS).
++ /guestbook/?number=5&lng=%3Cscript%3Ealert(document.domain);%3C/script%3E: MPM Guestbook 1.2 and previous are vulnreable to XSS attacks. See: OSVDB-2754
++ /forum_members.asp?find=%22;}alert(9823);function%20x()\{v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). See: OSVDB-2946
++ /error/500error.jsp?et=1<script>alert('Vulnerable')</script>;: Macromedia Sitespring 1.2.0(277.1) on Windows 2000 is vulnerable to Cross Site Scripting (XSS) in the error pages. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1027
++ /cleartrust/ct_logon.asp?CTLoginErrorMsg=<script>alert(1)</script>: RSA ClearTrust allows Cross Site Scripting (XSS). See: OSVDB-50619
++ /cgi-local/cgiemail-1.6/cgicso?query=<script>alert('Vulnerable')</script>: This CGI is vulnerable to Cross Site Scripting (XSS). See: https://vulners.com/osvdb/OSVDB:651
++ /cgi-local/cgiemail-1.4/cgicso?query=<script>alert('Vulnerable')</script>: This CGI is vulnerable to Cross Site Scripting (XSS). See: https://vulners.com/osvdb/OSVDB:651
++ /ca000007.pl?ACTION=SHOWCART&REFPAGE=\"><script>alert('Vulnerable')</script>: Actinic E-Commerce services is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1732
++ /ca000001.pl?ACTION=SHOWCART&hop=\"><script>alert('Vulnerable')</script>&PATH=acatalog%2f: Actinic E-Commerce services is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1732
++ /article.cfm?id=1'<script>alert(document.cookie);</script>: With malformed URLs, ColdFusion is vulnerable to Cross Site Scripting (XSS).
++ /apps/web/vs_diag.cgi?server=<script>alert('Vulnerable')</script>: Zeus 4.2r2 (webadmin-4.2r2) is vulnerable to Cross Site Scripting (XSS). See: https://www.mail-archive.com/bugtraq@securityfocus.com/msg11627.html
++ /a?<script>alert('Vulnerable')</script>: Server is vulnerable to Cross Site Scripting (XSS) in the error message if code is passed in the query-string. This may be a Null HTTPd server.
++ /?mod=<script>alert(document.cookie)</script>&op=browse: Sage 1.0b3 is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1243
++ /ext.dll?MfcIsapiCommand=LoadPage&page=admin.hts%20&a0=add&a1=root&a2=%5C: This check (A) sets up the next BadBlue test (B) for possible exploit. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0595
++ /ncl_items.shtml?SUBJECT=1: This may allow attackers to reconfigure your Tektronix printer. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0484
++ /pub/english.cgi?op=rmail: BSCW self-registration may be enabled. This could allow untrusted users semi-trusted access to the software. 3.x version (and probably some 4.x) allow arbitrary commands to be executed remotely. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0095
++ /scripts/wsisa.dll/WService=anything?WSMadmin: Allows Webspeed to be remotely administered. Edit unbroker.properties and set AllowMsngrCmds to 0. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0127
++ /submit?setoption=q&option=allowed_ips&value=255.255.255.255: MLdonkey 2.x allows administrative interface access to be access from any IP. This is typically only found on port 4080. See: OSVDB-3126
++ /mailman/admin/ml-name?\"><script>alert('Vulnerable')</script>;: Mailman is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0855
++ /fcgi-bin/echo?foo=<script>alert('Vulnerable')</script>: Fast-CGI has two default CGI programs (echo.exe/echo2.exe) vulnerable to Cross Site Scripting (XSS). See: OSVDB-700
++ /fcgi-bin/echo2?foo=<script>alert('Vulnerable')</script>: Fast-CGI has two default CGI programs (echo.exe/echo2.exe) vulnerable to Cross Site Scripting (XSS). See: OSVDB-3954
++ /fcgi-bin/echo.exe?foo=<script>alert('Vulnerable')</script>: Fast-CGI has two default CGI programs (echo.exe/echo2.exe) vulnerable to Cross Site Scripting (XSS). See: OSVDB-700
++ /fcgi-bin/echo2.exe?foo=<script>alert('Vulnerable')</script>: Fast-CGI has two default CGI programs (echo.exe/echo2.exe) vulnerable to Cross Site Scripting (XSS). See: OSVDB-3954
++ /apps/web/index.fcgi?servers=&section=<script>alert(document.cookie)</script>: Zeus Admin server 4.1r2 is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1785
++ /cgi-bin/pfdisplay.cgi?../../../../../../etc/passwd: Comes with IRIX 6.2-6.4; allows to run arbitrary commands. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0270
++ /shopping/shopdisplayproducts.asp?id=1&cat=<script>alert('test')</script>: VP-ASP prior to 4.50 are vulnerable to XSS attacks. See: https://seclists.org/bugtraq/2004/Jun/210
++ /shopdisplayproducts.asp?id=1&cat=<script>alert(document.cookie)</script>: VP-ASP Shopping Cart 4.x shopdisplayproducts.asp XSS. See: https://seclists.org/bugtraq/2004/Jun/210
++ /showmail.pl?Folder=<script>alert(document.cookie)</script>: @Mail WebMail 3.52 contains an XSS in the showmail.pl file. See: OSVDB-2950
++ /acartpath/signin.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /biztalktracking/RawCustomSearchField.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /biztalktracking/rawdocdata.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /csPassword.cgi?command=remove%20: This might be interesting: has been seen in web logs from an unknown scanner.
++ /emumail.cgi?type=.%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ /forum_arc.asp?n=268: This might be interesting: has been seen in web logs from an unknown scanner.
++ /forum_professionnel.asp?n=100: This might be interesting: has been seen in web logs from an unknown scanner.
++ /get_od_toc.pl?Profile=: WebTrends get_od_toc.pl may be vulnerable to a path disclosure error if this file is reloaded multiple times. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0596
++ /homebet/homebet.dll?form=menu&amp;option=menu-signin: This might be interesting: has been seen in web logs from an unknown scanner.
++ /idealbb/error.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /iisprotect/admin/SiteAdmin.ASP?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /msadc/Samples/SELECTOR/showcode.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /myguestBk/add1.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /myguestBk/admin/delEnt.asp?id=NEWSNUMBER|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /myguestBk/admin/index.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /netget?sid=Safety&amp;msg=2002&amp;file=Safety: This might be interesting: has been seen in web logs from an unknown scanner.
++ /produccart/pdacmin/login.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /productcart/pc/Custva.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /ProductCart/pc/msg.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /quikmail/nph-emumail.cgi?type=../%00: This might be interesting: has been seen in web logs from an unknown scanner.
++ /scripts/tradecli.dll?template=nonexistfile?template=..\..\..\..\..\winnt\system32\cmd.exe?/c+dir: This might be interesting: has been seen in web logs from an unknown scanner.
++ /sw000.asp?|-|0|404_Object_Not_Found: This might be interesting: has been seen in web logs from an unknown scanner.
++ /syslog.htm?%20: This might be interesting: has been seen in web logs from an unknown scanner.
++ /ows-bin/oaskill.exe?abcde.exe: This might be interesting: has been seen in web logs from an unknown scanner.
++ /ows-bin/oasnetconf.exe?-l%20-s%20BlahBlah: This might be interesting: has been seen in web logs from an unknown scanner.
++ /_vti_pvt/administrators.pwd: Default FrontPage file found, may be a password file. See: https://en.wikipedia.org/wiki/Microsoft_FrontPage
++ /_vti_pvt/authors.pwd: Default FrontPage file found, may be a password file. See: https://en.wikipedia.org/wiki/Microsoft_FrontPage
++ /_vti_pvt/service.pwd: Default FrontPage file found, may be a password file. See: https://en.wikipedia.org/wiki/Microsoft_FrontPage
++ /_vti_pvt/users.pwd: Default FrontPage file found, may be a password file. See: https://en.wikipedia.org/wiki/Microsoft_FrontPage
++ /index.html.ru.cp-1251: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information. See: CWE-552
++ /firewall/policy/dlg?q=-1&fzone=t<script>alert('Vulnerable')</script>>&tzone=dmz: Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: https://securitytracker.com/id/1008158
++ /firewall/policy/policy?fzone=internal&tzone=dmz1<script>alert('Vulnerable')</script>: Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: https://securitytracker.com/id/1008158
++ /antispam/listdel?file=blacklist&name=b<script>alert('Vulnerable')</script>&startline=0: Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: OSVDB-3295
++ /antispam/listdel?file=whitelist&name=a<script>alert('Vulnerable')</script>&startline=0(naturally): Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: OSVDB-3295
++ /theme1/selector?button=status,monitor,session&button_url=/system/status/status,/system/status/moniter\"><script>alert('Vulnerable')</script>,/system/status/session: Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: OSVDB-3296
++ /theme1/selector?button=status,monitor,session&button_url=/system/status/status\"><script>alert('Vulnerable')</script>,/system/status/moniter,/system/status/session: Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: OSVDB-3296
++ /theme1/selector?button=status,monitor,session\"><script>alert('Vulnerable')</script>&button_url=/system/status/status,/system/status/moniter,/system/status/session: Fortigate firewall 2.50 and prior contains several XSS vulnerabilities in various administrative pages. See: OSVDB-3296
++ /examplesWebApp/InteractiveQuery.jsp?person=<script>alert('Vulnerable')</script>: BEA WebLogic 8.1 and below are vulnerable to Cross Site Scripting (XSS) in example code. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0624
++ /sgdynamo.exe?HTNAME=<script>alert('Vulnerable')</script>: Ecometry's SGDynamo is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0375
++ /aktivate/cgi-bin/catgy.cgi?key=0&cartname=axa200135022551089&desc=<script>alert('Vulnerable')</script>: Aktivate Shopping Cart 1.03 and lower are vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-1212
++ /debug/dbg?host==<script>alert('Vulnerable');</script>: The TCLHttpd 3.4.2 server is vulnerable to Cross Site Scripting (XSS) in debug scripts. See: OSVDB-3762
++ /debug/echo?name=<script>alert('Vulnerable');</script>: The TCLHttpd 3.4.2 server is vulnerable to Cross Site Scripting (XSS) in debug scripts. See: OSVDB-3762
++ /debug/errorInfo?title===<script>alert('Vulnerable');</script>: The TCLHttpd 3.4.2 server is vulnerable to Cross Site Scripting (XSS) in debug scripts. See: OSVDB-3762
++ /debug/showproc?proc===<script>alert('Vulnerable');</script>: The TCLHttpd 3.4.2 server is vulnerable to Cross Site Scripting (XSS) in debug scripts. See: OSVDB-3762
++ /banmat.pwd: Bannermatic versions 1-3 reveal sensitive information from unprotected files. These files should be protected. See: OSVDB-4237
++ /texis.exe/?-dump: Texis installation may reveal sensitive information. See: OSVDB-4314
++ /texis.exe/?-version: Texis installation may reveal sensitive information. See: OSVDB-4314
++ /acart2_0/admin/category.asp?catcode=': Alan Ward A-Cart 2.0 is vulnerable to a SQL inject attack. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1873
++ /siteserver/publishing/viewcode.asp?source=/default.asp: May be able to view source code using Site Server vulnerability. See: OSVDB-17671
++ /sysuser/docmgr/ieedit.stm?url=../: Sambar default file may allow directory listings. See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/iecreate.stm?template=../: Sambar default file may allow directory listings. See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /wwwping/index.stm?wwwsite=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/create.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/edit.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/ftp.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/htaccess.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/iecreate.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/ieedit.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/info.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/mkdir.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/rename.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/search.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/sendmail.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/template.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/update.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/vccheckin.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/vccreate.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/vchist.stm?path=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/edit.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/ieedit.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/info.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/rename.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/sendmail.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/update.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/vccheckin.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/vccreate.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/vchist.stm?name=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /syshelp/stmex.stm?foo=123&bar=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /syshelp/stmex.stm?foo=<script>alert(document.cookie)</script>&bar=456: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /syshelp/cscript/showfunc.stm?func=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /syshelp/cscript/showfncs.stm?pkg=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /syshelp/cscript/showfnc.stm?pkg=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /netutils/ipdata.stm?ipaddr=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /netutils/findata.stm?host=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /netutils/findata.stm?user=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /sysuser/docmgr/search.stm?query=<script>alert(document.cookie)</script>: Sambar Server default script is vulnerable to Cross Site Scripting (XSS). See: https://seclists.org/fulldisclosure/2003/Mar/265
++ /webtools/bonsai/cvsqueryform.cgi?cvsroot=/cvsroot&module=<script>alert('Vulnerable')</script>&branch=HEAD: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0154
++ /webtools/bonsai/cvsquery.cgi?branch=<script>alert('Vulnerable')</script>&file=<script>alert(document.domain)</script>&date=<script>alert(document.domain)</script>: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0154
++ /webtools/bonsai/cvsquery.cgi?module=<script>alert('Vulnerable')</script>&branch=&dir=&file=&who=<script>alert(document.domain)</script>&sortby=Date&hours=2&date=week: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0154
++ /webtools/bonsai/cvslog.cgi?file=*&rev=&root=<script>alert('Vulnerable')</script>: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0153
++ /webtools/bonsai/cvslog.cgi?file=<script>alert('Vulnerable')</script>: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0153
++ /webtools/bonsai/cvsblame.cgi?file=<script>alert('Vulnerable')</script>: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0154
++ /webtools/bonsai/showcheckins.cgi?person=<script>alert('Vulnerable')</script>: Bonsai is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0154
++ /MWS/HandleSearch.html?searchTarget=test&B1=Submit: MyWebServer 1.0.2 may be vulnerable to a buffer overflow (untested). Upgrade to a later version if 990b of searched data crashes the server. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1452
++ /cgi-bin/hpnst.exe?c=p+i=SrvSystemInfo.html: HP Instant TopTools GoAhead WebServer hpnst.exe may be vulnerable to a DoS. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-0169
++ /launch.asp?NFuse_Application=LookOut&NFuse_MIMEExtension=.ica: Citrix server may reveal sensitive information by accessing the 'advanced' tab on the login screen. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0301
++ /pls/dadname/htp.print?cbuf=<script>alert('Vulnerable')</script>: Oracle 9iAS is vulnerable to Cross Site Scripting (XSS). See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-2029
++ /iissamples/sdk/asp/docs/CodeBrws.asp?Source=/IISSAMPLES/%c0%ae%c0%ae/default.asp: IIS may be vulnerable to source code viewing via the example CodeBrws.asp file. Remove all default files from the web root. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0739 https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013
++ /shopadmin.asp?Password=abc&UserName=\"><script>alert(foo)</script>: VP-ASP Shopping Cart 5.50 shopadmin.asp UserName Variable XSS. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3685
++ /reports/rwservlet?server=repserv+report=/tmp/hacker.rdf+destype=cache+desformat=PDF: Oracle Reports rwservlet report Variable Arbitrary Report Executable Execution. See: https://www.exploit-db.com/exploits/26006
++ /reports/rwservlet/getjobid7?server=myrep: Oracle Reports. See: CWE-552
++ /reports/rwservlet/getjobid4?server=myrep: Oracle Reports. See: CWE-552
++ /reports/rwservlet/showmap?server=myserver: Oracle Reports. See: CWE-552
++ /pls/portal/owa_util.cellsprint?p_theQuery=select: Direct access to Oracle packages could have an unknown impact.
++ /pls/portal/owa_util.listprint?p_theQuery=select: Access to Oracle pages could have an unknown impact.
++ /pls/portal/owa_util.show_query_columns?ctable=sys.dba_users: Access to Oracle pages could have an unknown impact.
++ /pls/portal/owa_util.showsource?cname=owa_util: Access to Oracle pages could have an unknown impact.
++ /pls/portal/owa_util.cellsprint?p_theQuery=select+*+from+sys.dba_users: Access to Oracle pages could have an unknown impact.
++ /pls/portal/PORTAL.wwv_main.render_warning_screen?p_oldurl=inTellectPRO&p_newurl=inTellectPRO: Access to Oracle pages could have an unknown impact.
++ /OA_HTML/jsp/fnd/fndhelp.jsp?dbc=/u01/oracle/prodappl/fnd/11.5.0/secure/dbprod2_prod.dbc: Oracle Applications help page found. See: CWE-552
++ /jsp-examples/jsp2/jspx/textRotate.jspx?name=<script>alert(111)</script>: The tomcat demo files are installed, which are vulnerable to an XSS attack. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4838
++ /jsp-examples/jsp2/el/implicit-objects.jsp?foo=<script>alert(112)</script>: The tomcat demo files are installed, which are vulnerable to an XSS attack. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4838
++ /jsp-examples/jsp2/el/functions.jsp?foo=<script>alert(113)</script>: The Tomcat demo files are installed, which are vulnerable to an XSS attack. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4838
++ /scripts/message/message_dialog.tml?how_many_back=\"><script>alert(1)</script>: Lyris ListManager Cross-Site Scripting. See: https://www.procheckup.com/media/zjkb3pmc/new-listmanager-paper-v2.pdf
++ /adfs/ls/?wa=wsignout1.0: Active Directory Federation Services sign out page found.
++ /adfs/ls/?wa=wsignin1.0&wtrealm=http://www.cirt.net/: Active Directory Federation Services sign in page found.
++ /_layouts/mngsubwebs.aspx?view=sites: FrontPage/Sharepointfile available.
++ /_layouts/people.aspx?MembershipGroupId=0: FrontPage/Sharepointfile available.
++ /_layouts/SiteManager.aspx?lro=all: FrontPage/Sharepointfile available.
++ /_layouts/userdisp.aspx?ID=1: FrontPage/Sharepointfile available.
++ /_layouts/useredit.aspx?ID=1: FrontPage/Sharepointfile available.
++ /_layouts/WPPrevw.aspx?ID=247: FrontPage/Sharepointfile available.
++ /Forms/DispForm.aspx?ID=1: FrontPage/Sharepointfile available.
++ /Forms/EditForm.aspx?ID=1: FrontPage/Sharepointfile available.
++ /_async/AsyncResponseServiceJms?WSDL: BEA WebLogic may allow remote takeover. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-2725 CNVD-C-2019-48814
++ 7944 requests: 10 error(s) and 327 item(s) reported on remote host
++ End Time:           2025-02-23 15:18:06 (GMT6) (808 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+                                                                                                                    
+┌──(msafa㉿kali)-[~]
+└─$ 
